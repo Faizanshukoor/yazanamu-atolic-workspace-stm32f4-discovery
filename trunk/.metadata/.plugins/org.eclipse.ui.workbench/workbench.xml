@@ -20,6 +20,8 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="114" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -28,10 +30,16 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="command.c" partName="command.c" path="D:/WorkSpace/yazanamu-atolic-workspace-stm32f4-discovery/STM32F4-Discovery_FW/Project/FW_upgrade/src/command.c" title="command.c" tooltip="STM32F4-Discovery/User/command.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F4-Discovery/User/command.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="3695"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -58,7 +66,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="com.atollic.truestudio.ui.ActionSet"/>
@@ -107,10 +115,10 @@
 <new_wizard_action id="org.eclipse.cdt.ui.wizards.NewClassCreationWizard"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
-<hide_menu_item_id id="org.eclipse.ui.views.ResourceNavigator"/>
 <hide_menu_item_id id="org.eclipse.search.ui.views.SearchView"/>
-<hide_menu_item_id id="org.eclipse.cdt.ui.includeBrowser"/>
+<hide_menu_item_id id="org.eclipse.ui.views.ResourceNavigator"/>
 <hide_menu_item_id id="org.eclipse.ui.views.TaskList"/>
+<hide_menu_item_id id="org.eclipse.cdt.ui.includeBrowser"/>
 <hide_toolbar_item_id id="org.eclipse.cdt.ui.CElementCreationActionSet"/>
 <hide_toolbar_item_id id="org.eclipse.cdt.ui.navigate.opentype"/>
 <hide_toolbar_item_id id="org.eclipse.ui.project.buildAll"/>
@@ -123,9 +131,9 @@
 <hide_toolbar_item_id id="org.eclipse.cdt.ui.actions.NewFileDropDown"/>
 <hide_toolbar_item_id id="org.eclipse.cdt.ui.actions.NewFolderDropDown"/>
 <hide_toolbar_item_id id="org.eclipse.mylyn.tasks.ui.command.openTask"/>
-<hide_toolbar_item_id id="newWizardDropDown"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleBlockSelectionMode"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="newWizardDropDown"/>
 <hide_toolbar_item_id id="org.eclipse.cdt.ui.actions.NewTypeDropDown"/>
 <hide_toolbar_item_id id="org.eclipse.ui.navigate.next"/>
 <hide_toolbar_item_id id="org.eclipse.cdt.ui.buildConfigToolbarAction"/>
@@ -192,7 +200,30 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/STM32F4-Discovery/TrueSTUDIO/startup_stm32f4xx.s"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4-Discovery/STM32F4-Discovery/stm32f4_discovery.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4-Discovery/User/stm32f4xx_it.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4-Discovery/User/system_stm32f4xx.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F4-Discovery/User/command.c"/>
+</editors>
+<item historyLabel="startup_stm32f4xx.s" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4_discovery.c" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f4xx_it.c" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="system_stm32f4xx.c" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="command.c" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -208,5 +239,21 @@
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="command.c" tooltip="STM32F4-Discovery/User/command.c">
+<persistable path="/STM32F4-Discovery/User/command.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f4xx.c" tooltip="STM32F4-Discovery/User/system_stm32f4xx.c">
+<persistable path="/STM32F4-Discovery/User/system_stm32f4xx.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_it.c" tooltip="STM32F4-Discovery/User/stm32f4xx_it.c">
+<persistable path="/STM32F4-Discovery/User/stm32f4xx_it.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4_discovery.c" tooltip="STM32F4-Discovery/STM32F4-Discovery/stm32f4_discovery.c">
+<persistable path="/STM32F4-Discovery/STM32F4-Discovery/stm32f4_discovery.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="startup_stm32f4xx.s" tooltip="STM32F4-Discovery/TrueSTUDIO/startup_stm32f4xx.s">
+<persistable path="/STM32F4-Discovery/TrueSTUDIO/startup_stm32f4xx.s"/>
+</file>
+</mruList>
 </workbench>
