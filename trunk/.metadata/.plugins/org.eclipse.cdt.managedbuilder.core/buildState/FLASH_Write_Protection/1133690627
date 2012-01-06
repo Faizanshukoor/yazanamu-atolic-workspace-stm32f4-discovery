@@ -1,0 +1,14 @@
+#
+#Fri Jan 06 12:21:49 KST 2012
+Debug/User/system_stm32f4xx.o=1
+Debug/User/stm32f4xx_it.o=1
+TrueSTUDIO/startup_stm32f4xx.s=1
+User/system_stm32f4xx.c=1
+Debug/STM32F4xx_StdPeriph_Driver/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.o=1
+Debug/FLASH_Write_Protection.elf=1
+User/stm32f4xx_it.c=1
+STM32F4xx_StdPeriph_Driver/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c=1
+Debug/FLASH_Write_Protection=1
+Debug/User/main.o=1
+User/main.c=1
+Debug/TrueSTUDIO/startup_stm32f4xx.o=1
