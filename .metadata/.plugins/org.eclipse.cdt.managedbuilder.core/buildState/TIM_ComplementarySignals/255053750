@@ -1,0 +1,22 @@
+#
+#Fri Jan 06 12:25:14 KST 2012
+Debug/TIM_ComplementarySignals.elf=1
+Debug/User/system_stm32f4xx.o=1
+Debug/User/stm32f4xx_it.o=1
+TrueSTUDIO/startup_stm32f4xx.s=1
+User/system_stm32f4xx.c=1
+STM32F4xx_StdPeriph_Driver/stm32f4xx_rcc.c=1
+User/stm32f4xx_it.c=1
+STM32F4xx_StdPeriph_Driver/misc.c=1
+STM32F4xx_StdPeriph_Driver/stm32f4xx_gpio.c=1
+Debug/STM32F4xx_StdPeriph_Driver/stm32f4xx_tim.o=1
+Debug/User/main.o=1
+Debug/TIM_ComplementarySignals=1
+Debug/STM32F4xx_StdPeriph_Driver/misc.o=1
+Debug/STM32F4-Discovery/stm32f4_discovery.o=1
+Debug/STM32F4xx_StdPeriph_Driver/stm32f4xx_gpio.o=1
+STM32F4-Discovery/stm32f4_discovery.c=1
+User/main.c=1
+Debug/STM32F4xx_StdPeriph_Driver/stm32f4xx_rcc.o=1
+Debug/TrueSTUDIO/startup_stm32f4xx.o=1
+STM32F4xx_StdPeriph_Driver/stm32f4xx_tim.c=1
