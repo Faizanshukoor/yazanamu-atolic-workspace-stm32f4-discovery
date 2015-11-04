@@ -1,0 +1,1 @@
+yazanamu-atolic-workspace-stm32f4-discovery
